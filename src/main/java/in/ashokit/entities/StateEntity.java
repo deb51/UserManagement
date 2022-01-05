@@ -18,5 +18,8 @@ public class StateEntity {
 
 	@Column(name = "STATE_NAME")
 	private String stateName;
+	
+	@Column(name = "COUNTRY_ID")
+	private String countryId;
 
 }

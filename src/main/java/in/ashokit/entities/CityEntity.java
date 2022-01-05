@@ -16,4 +16,7 @@ public class CityEntity {
 	
 	@Column(name = "CITY_NAME")
 	private String cityName;
+	
+	@Column(name = "STATE_ID")
+	private String stateId;
 }
